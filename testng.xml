@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Facebook_URL1">
+	<parameter name="Browser" value="Chrome"></parameter>  
+    <classes>
+      <class name="parameter_Annotation.Facebook_Url_Launching"/>
+    </classes>
+  </test> <!-- Facebook_URL -->
+  
+  
+  
+   <test name="Facebook_URL2">
+	<parameter name="Browser" value="Firefox"></parameter>  
+    <classes>
+      <class name="parameter_Annotation.Facebook_Url_Launching"/>
+    </classes>
+  </test> <!-- Facebook_URL -->
+</suite> <!-- Suite -->
