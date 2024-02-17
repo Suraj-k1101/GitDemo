@@ -21,6 +21,7 @@ public class DemoTest1 {
 	  
 	  
 	  System.out.println("before method");
+	  System.out.println("before method will excecute before each and every method");
 	  
   }
 
@@ -29,6 +30,7 @@ public class DemoTest1 {
 	  
 	  
 	  System.out.println("after method");
+	  System.out.println("after method will excecute after each and every method");
 	  
   }
 
@@ -36,6 +38,7 @@ public class DemoTest1 {
   public void beforeClass() {
 	  
 	  System.out.println("before class");
+	  System.out.println("before class will excecute before each and every class");
 	  
   }
 
@@ -43,6 +46,7 @@ public class DemoTest1 {
   public void afterClass() {
 	  
 	  System.out.println("after class"); 
+	  System.out.println("after class will excecute after each and every class");
 	  
   }
 
