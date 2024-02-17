@@ -54,6 +54,7 @@ public class DemoTest1 {
   public void beforeTest() {
 	  
 	  System.out.println("before test"); 
+    System.out.println("before test will excecute before each and every test");
 	  
   }
 
@@ -61,6 +62,7 @@ public class DemoTest1 {
   public void afterTest() {
 	  
 	  System.out.println("after test");
+    System.out.println("after test will excecute after each and every test");
 	  
   }
 
@@ -68,6 +70,7 @@ public class DemoTest1 {
   public void beforeSuite() {
 	  
 	  System.out.println("before suite");
+    System.out.println("before suite will excecute before each and every suite");
 	  
 	  
   }
@@ -84,6 +87,7 @@ public class DemoTest1 {
   public void afterSuite() {
 	  
 	  System.out.println("after suite");
+    System.out.println("after suite will excecute after each and every suite");
 	  
   }
 
