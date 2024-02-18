@@ -17,6 +17,10 @@ public class TestNG_Attributes {
 	{
 		
 		System.out.println("login page");
+		System.out.println("Its a login page");
+		
+		
+		
 		
 	}
 	
@@ -25,6 +29,7 @@ public class TestNG_Attributes {
 	{
 		
 		System.out.println("Registration page");
+		System.out.println("It's Registration page");
 		
 	}
 	
