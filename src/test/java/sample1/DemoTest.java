@@ -51,5 +51,37 @@ public class DemoTest {
 		System.out.println("Its Cucumber BDD Automation");
 		
 	}
+
+	@Test
+	public void HybridAutomationFramework()
+	{
+		
+		System.out.println("Its Hybrid Automation Framework");
+		
+	}
+
+	@Test
+	public void ETLTesting()
+	{
+		
+		System.out.println("Its ETL Testing");
+		
+	}
+
+	@Test
+	public void ToscaTesting()
+	{
+		
+		System.out.println("Its Tosca Testing");
+		
+	}
+
+	@Test
+	public void ROBOTAutomationFramework()
+	{
+		
+		System.out.println("Its ROBOT Automation Framework");
+		
+	}
 	
 }
